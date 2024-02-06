@@ -33,4 +33,8 @@ public class HelloController {
         return  "Hello222";
     }
 
+    @RequestMapping(value="/list224",method = RequestMethod.GET)
+    public String hello4() {
+        return  "Hello22255";
+    }
 }
